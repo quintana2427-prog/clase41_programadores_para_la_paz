@@ -11,6 +11,14 @@ const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 
 app.use(express.json());
 
+const REQUIRE_TELEGRAM = process.env.REQUIRE_TELEGRAM === "true";
+
+if (REQUIRE_TELEGRAM && !TELEGRAM_BOT_TOKEN) {
+  console.error("ERROR_OPERATIVO: REQUIRE_TELEGRAM está activo, pero falta TELEGRAM_BOT_TOKEN.");
+  console.error("SUGERENCIA: Revise el archivo .env sin publicar credenciales.");
+  process.exit(1);
+}
+
 function existeTokenTelegram() {
   return Boolean(TELEGRAM_BOT_TOKEN);
 }
@@ -72,4 +80,13 @@ app.listen(PORT, () => {
   } else {
     console.warn("Telegram: token no configurado.");
   }
+});
+
+
+app.get("/fallo-controlado", (req, res) => {
+  console.error("ERROR_SIMULADO: Se ejecutó la ruta /fallo-controlado para práctica de diagnóstico.");
+  res.status(500).json({
+    error: "Error simulado",
+    mensaje: "Esta ruta se usa solo para practicar diagnóstico."
+  });
 });
