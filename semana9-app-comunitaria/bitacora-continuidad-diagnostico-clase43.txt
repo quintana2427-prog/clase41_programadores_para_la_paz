@@ -1,44 +1,45 @@
 BITÁCORA DE CONTINUIDAD Y DIAGNÓSTICO - CLASE 43
 
-Nombre:
-Fecha:
+Nombre: Luis Quintana Avila
+Fecha: 27/06/2026
 Entorno: GitHub Codespaces
 
 1. ¿Qué es continuidad operativa?
-Respuesta:
+Respuesta: Es la capacidad de mantener una aplicación funcionando o recuperarla rápidamente cuando ocurre un problema.
+
 
 2. ¿Qué es PM2?
-Respuesta:
+Respuesta: Es una herramienta que permite administrar aplicaciones de Node.js, iniciarlas, detenerlas, reiniciarlas y revisar sus logs.
 
 3. ¿Qué comando usé para iniciar la aplicación con PM2?
-Respuesta:
+Respuesta: npx pm2 start server.js --name app-semana9
 
 4. ¿Qué comando usé para listar procesos?
-Respuesta:
+Respuesta: npx pm2 list
 
 5. ¿Qué comando usé para detener la aplicación?
-Respuesta:
+Respuesta: npx pm2 stop app-semana9
 
 6. ¿Qué comando usé para reiniciar la aplicación?
-Respuesta:
+Respuesta: npx pm2 restart app-semana9
 
 7. ¿Qué comando usé para revisar logs?
-Respuesta:
+Respuesta: npx pm2 logs app-semana9 --lines 20
 
 8. ¿Qué error simulé?
-Respuesta:
+Respuesta: Simulé el error de una variable de entorno faltante (TELEGRAM_BOT_TOKEN) y también probé la ruta /fallo-controlado.
 
 9. ¿Qué mensaje apareció en logs?
-Respuesta:
+Respuesta: Apareció el mensaje "ERROR_OPERATIVO: REQUIRE_TELEGRAM está activo, pero falta TELEGRAM_BOT_TOKEN."
 
 10. ¿Cuál fue la causa probable del error?
-Respuesta:
+Respuesta: Que la variable TELEGRAM_BOT_TOKEN no estaba configurada en el archivo .env.
 
 11. ¿Cómo corregí el error?
-Respuesta:
+Respuesta: Agregué nuevamente la variable TELEGRAM_BOT_TOKEN al archivo .env y reinicié la aplicación con PM2.
 
 12. ¿Qué rutas verifiqué después de corregir?
-Respuesta:
+Respuesta: Verifiqué las rutas /estado, /diagnostico y /fallo-controlado para comprobar el funcionamiento de la aplicación.
 
 13. ¿Qué debo evitar al tomar capturas de logs?
-Respuesta:
+Respuesta: Debo evitar mostrar tokens, contraseñas, credenciales, variables de entorno y cualquier información sensible.

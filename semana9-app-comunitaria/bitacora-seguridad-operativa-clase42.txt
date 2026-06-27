@@ -1,40 +1,40 @@
 BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
 
-Nombre:
-Fecha:
+Nombre: Luis Quintana Avila 
+Fecha: 27/06/2026
 
 1. ¿Qué significa seguridad operativa aplicada?
-Respuesta:
+Respuesta: Es aplicar buenas prácticas para proteger la aplicación y evitar que se exponga información importante.
 
 2. ¿Qué es el principio de mínimo privilegio?
-Respuesta:
+Respuesta: Significa dar solo los permisos necesarios para que una persona o un programa haga su trabajo, sin tener más acceso del que necesita.
 
 3. ¿Qué significa exposición mínima?
-Respuesta:
+Respuesta: Significa mostrar únicamente la información necesaria y no exponer datos sensibles o información interna de la aplicación.
 
 4. ¿Para qué sirve .gitignore?
-Respuesta:
+Respuesta: Sirve para indicar qué archivos o carpetas Git no debe subir al repositorio.
 
 5. ¿Por qué .env no debe subirse a GitHub?
-Respuesta:
+Respuesta: Porque puede contener variables de entorno, tokens o información privada que no debe hacerse pública.
 
 6. ¿Qué datos podrían ser sensibles en este proyecto?
-Respuesta:
+Respuesta: Los tokens, las credenciales, las variables de entorno y cualquier información privada de la aplicación.
 
 7. ¿Qué archivos no deberían subirse al repositorio?
-Respuesta:
+Respuesta: El archivo .env, la carpeta node_modules y otros archivos que contengan información sensible o sean generados automáticamente.
 
 8. ¿Qué rutas deberían mantenerse públicas?
-Respuesta:
+Respuesta: Las rutas /, /saludo, /estado y /api/info, porque muestran información básica de la aplicación.
 
 9. ¿Qué rutas deberían limitar información?
-Respuesta:
+Respuesta: La ruta /diagnostico y cualquier otra que pueda mostrar datos internos, para evitar exponer información sensible.
 
 10. ¿Qué cambio se hizo en /estado?
-Respuesta:
+Respuesta: Se redujo la información que mostraba para que solo indicara que la aplicación estaba activa, sin revelar datos internos.
 
 11. ¿Qué muestra /diagnostico y qué no debe mostrar?
-Respuesta:
+Respuesta: Muestra el entorno y si el token está configurado, pero no muestra el valor del token ni otras credenciales.
 
 12. ¿Qué aprendí sobre proteger credenciales?
-Respuesta:
+Respuesta: Aprendí que las credenciales nunca deben publicarse, deben guardarse en el archivo .env y protegerse con .gitignore.

@@ -5,31 +5,31 @@ Fecha:
 Entorno usado: GitHub Codespaces
 
 1. ¿Qué significa desplegar o levantar una aplicación?
-Respuesta:
+Respuesta: Significa iniciar la aplicación para que funcione y pueda ser utilizada o probada.
 
 2. ¿Qué diferencia hay entre código escrito y aplicación ejecutándose?
-Respuesta:
+Respuesta: El código escrito está guardado en archivos, mientras que la aplicación ejecutándose está funcionando y responde a las solicitudes.
 
 3. ¿Qué variable de entorno se usó para definir el puerto?
-Respuesta:
+Respuesta: La variable PORT.
 
 4. ¿Qué puerto se usó?
-Respuesta:
+Respuesta: El puerto 3000.
 
 5. ¿Qué rutas fueron verificadas?
-Respuesta:
+Respuesta: Verifiqué las rutas /, /saludo, /estado y /api/info.
 
 6. ¿Qué respuesta entregó la ruta /estado?
-Respuesta:
+Respuesta: Mostró que la aplicación estaba activa junto con información del servicio, el entorno, el puerto y la fecha.
 
 7. ¿Qué ocurrió al consultar una ruta inexistente?
-Respuesta:
+Respuesta: La aplicación respondió con un error 404 indicando que la ruta no fue encontrada.
 
 8. ¿Por qué el archivo .env no debe subirse a GitHub?
-Respuesta:
+Respuesta: Porque puede contener información privada, como variables de entorno o credenciales, que no deben hacerse públicas.
 
 9. ¿Qué aprendí sobre disponibilidad de una aplicación?
-Respuesta:
+Respuesta: Aprendí que una aplicación debe estar ejecutándose correctamente para poder responder a las solicitudes de los usuarios.
 
 10. ¿Qué debo revisar antes de decir que una aplicación funciona?
-Respuesta:
+Respuesta: Debo revisar que el servidor haya iniciado correctamente y comprobar que las rutas principales respondan sin errores.

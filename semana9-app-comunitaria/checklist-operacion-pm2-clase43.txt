@@ -1,23 +1,23 @@
 CHECKLIST DE OPERACIÓN CON PM2 - CLASE 43
 
-Nombre:
-Fecha:
+Nombre: Luis Quintana Avila 
+Fecha: 27/06/2026
 
-[ ] Comprendí que Codespaces es un entorno de práctica.
-[ ] Comprendí que PM2 administra procesos Node.js.
-[ ] Instalé PM2 como dependencia de desarrollo.
-[ ] Inicié la app con PM2.
-[ ] Listé procesos con PM2.
-[ ] Detuve la app con PM2.
-[ ] Reinicié la app con PM2.
-[ ] Revisé logs con PM2.
-[ ] Simulé un error controlado.
-[ ] Identifiqué el mensaje de error.
-[ ] Relacioné el mensaje con una causa probable.
-[ ] Corregí el error.
-[ ] Reinicié la aplicación.
-[ ] Verifiqué rutas después de corregir.
-[ ] No publiqué tokens.
-[ ] No mostré .env en capturas.
-[ ] No compartí logs con información sensible.
-[ ] Documenté el procedimiento.
+[x] Comprendí que Codespaces es un entorno de práctica.
+[x] Comprendí que PM2 administra procesos Node.js.
+[x] Instalé PM2 como dependencia de desarrollo.
+[x] Inicié la app con PM2.
+[x] Listé procesos con PM2.
+[x] Detuve la app con PM2.
+[x] Reinicié la app con PM2.
+[x] Revisé logs con PM2.
+[x] Simulé un error controlado.
+[x] Identifiqué el mensaje de error.
+[x] Relacioné el mensaje con una causa probable.
+[x] Corregí el error.
+[x] Reinicié la aplicación.
+[x] Verifiqué rutas después de corregir.
+[x] No publiqué tokens.
+[x] No mostré .env en capturas.
+[x] No compartí logs con información sensible.
+[x] Documenté el procedimiento.

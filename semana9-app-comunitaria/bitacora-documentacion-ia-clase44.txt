@@ -1,41 +1,41 @@
 BITÁCORA DE DOCUMENTACIÓN E IA - CLASE 44
 
-Nombre:
-Fecha:
+Nombre: Luis Quintana Avila
+Fecha: 27/06/2026
 Entorno: GitHub Codespaces
 
 1. ¿Qué es un procedimiento técnico?
-Respuesta:
+Respuesta: Es una guía donde se explican los pasos para instalar, configurar o ejecutar un proyecto correctamente.
 
 2. ¿Por qué documentar evita depender de una sola persona?
-Respuesta:
+Respuesta: Porque cualquier persona puede leer la documentación y saber cómo hacer el trabajo sin tener que preguntarle siempre a la misma persona.
 
 3. ¿Qué diferencia hay entre Codespaces, hosting compartido, VPS y nube?
-Respuesta:
+Respuesta: Codespaces sirve para programar desde el navegador. El hosting compartido comparte recursos con otros usuarios. Un VPS ofrece recursos propios y la nube permite usar servidores y servicios por Internet de forma más flexible.
 
 4. ¿Qué es cPanel?
-Respuesta:
+Respuesta: Es una herramienta que permite administrar un servidor o una página web de una forma más sencilla.
 
 5. ¿Qué archivos no deben subirse al repositorio?
-Respuesta:
+Respuesta: No se deben subir archivos .env, contraseñas, tokens, archivos temporales, logs ni la carpeta node_modules.
 
 6. ¿Qué función cumple .gitignore?
-Respuesta:
+Respuesta: Sirve para decirle a Git qué archivos o carpetas no debe subir al repositorio.
 
 7. ¿Qué función cumple .gitkeep?
-Respuesta:
+Respuesta: Sirve para que Git conserve una carpeta aunque esté vacía.
 
 8. ¿Qué carpeta se preparó para archivos subidos?
-Respuesta:
+Respuesta: La carpeta uploads.
 
 9. ¿Por qué los archivos dentro de uploads no deben subirse automáticamente?
-Respuesta:
+Respuesta: Porque pueden ser archivos de prueba o información que no debe quedar publicada en el repositorio.
 
 10. ¿Qué consulta segura hice a IA?
-Respuesta:
+Respuesta: Le pregunté sobre el uso de .gitignore, .gitkeep, Git y cómo organizar correctamente el proyecto.
 
 11. ¿Qué información evité compartir con IA?
-Respuesta:
+Respuesta: Evité compartir contraseñas, tokens, variables de entorno y cualquier dato privado del proyecto.
 
 12. ¿Qué parte del procedimiento verifiqué manualmente?
-Respuesta:
+Respuesta: Verifiqué que .gitignore funcionara bien, que los archivos de prueba no se subieran al repositorio y revisé el estado del proyecto con git status.
